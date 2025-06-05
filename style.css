@@ -1,0 +1,46 @@
+*{font-family:"Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body{
+      background-image:url('tubaraooooo.jpg');/*Adicionando imagem no fundo*/
+      background-position: center;
+      background-size: cover;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .container{
+      text-align: center;
+      color: rgb(219, 228, 252);
+      padding: 2.5cm;/*espaçamento entre a margem e o texto*/
+      background: #16254499;
+      max-width: calc(60% - 6cm);
+      margin: auto;
+      border-radius: 5%;
+      padding-top: 10%;
+      
+      h1{
+          font-size:2.5em;
+          font-weight: bold;
+      }
+  }
+  button {
+    background-color: #1b212c67;
+    color: #b7bec4;
+    border: none;
+    padding: 20px 50px; /* Aumenta a área interna */
+    font-size: 1.2em;    /* Aumenta o tamanho da fonte */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    justify-content: space-around;
+          margin:20px;
+  }
+  button:active {
+    background-color: #007acc;
+    color: #ffffff;
+  }

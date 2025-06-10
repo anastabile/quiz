@@ -77,8 +77,8 @@ h1 {
     background-color:#1b212c67;
 }
 #next-button:active {
-    background-color: #72bcece1;
-    color: #ffffff;
+    background-color: #5f95c7;
+    color: white;
   }
 
 .início{
@@ -94,6 +94,24 @@ h1 {
     transition: background 0.3s;
 }
   .início:active {
-    background-color: #82c2ecb2;
-    color: #ffffff;
+    background-color:#5f95c7;
+    color: white;
   }
+
+.dificil{
+align-items: center;
+    margin:10px;
+    padding: 12px;
+    font-size: 1.5em;
+    background-color:#1b212c67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dificil:active {
+    background-color: #5f95c7;
+    color: white;
+}

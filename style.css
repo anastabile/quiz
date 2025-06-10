@@ -30,7 +30,7 @@
   }
   button {
     background-color: #1b212c67;
-    color: #b7bec4;
+    color: white;
     border: none;
     padding: 20px 50px; /* Aumenta a área interna */
     font-size: 1.2em;    /* Aumenta o tamanho da fonte */
@@ -41,6 +41,6 @@
           margin:20px;
   }
   button:active {
-    background-color: #007acc;
-    color: #ffffff;
+    background-color: #5f95c7;
+    color: white;
   }
